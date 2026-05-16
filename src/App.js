@@ -1,5 +1,5 @@
 import React from "react";
-import LenderForm from "./components/LenderForm";
+
 
 function App() {
   return (
