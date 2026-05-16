@@ -6,6 +6,7 @@ function App() {
     <div>
       <h1>Lending App</h1>
       <LenderForm />
+      <p> Deployed Successfully</p>
     </div>
   );
 }
