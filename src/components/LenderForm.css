@@ -1,0 +1,134 @@
+/* src/components/LenderForm.css */
+.form-container {
+  max-width: 640px;
+  margin: 36px auto;
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+  color: #222;
+}
+
+.form-title {
+  text-align: center;
+  color: #1f6fb8;
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.progress-step {
+  flex: 1;
+  text-align: center;
+  padding: 10px 8px;
+  border-bottom: 3px solid #e6eef7;
+  color: #7a8a99;
+  font-weight: 600;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #fff, #fbfdff);
+}
+
+.progress-step.active {
+  border-bottom-color: #1f6fb8;
+  color: #1f6fb8;
+  background: linear-gradient(180deg, #f3f9ff, #fff);
+}
+
+.lender-form label {
+  display: block;
+  margin-top: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.lender-form input[type="text"],
+.lender-form input[type="email"],
+.lender-form input[type="tel"],
+.lender-form input[type="number"],
+.lender-form input[type="file"],
+.lender-form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #d6dfe9;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.btn-primary {
+  flex: 1;
+  padding: 12px 16px;
+  background: #1f6fb8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background: #155a93;
+}
+
+.btn-secondary {
+  padding: 12px 16px;
+  background: #eef4fb;
+  color: #1f6fb8;
+  border: 1px solid #d6e8fb;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.preview-box {
+  padding: 16px;
+  background: #f6fbff;
+  border: 1px solid #e1f0ff;
+  border-radius: 8px;
+}
+
+.support {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.support a {
+  color: #1f6fb8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.confirmation-screen {
+  text-align: center;
+  padding: 28px;
+}
+
+.confirmation-screen h2 {
+  color: #27ae60;
+  margin-bottom: 8px;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: #1f6fb8;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+}
