@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@vercel/analytics": "^2.0.1",
     "emailjs": "^5.0.0",
     "emailjs-com": "^3.2.0",
     "jspdf": "^2.5.1",
